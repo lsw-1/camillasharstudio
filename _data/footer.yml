@@ -4,12 +4,10 @@
       link: /
     - name: Om mig
       link: /about/
-    - name: Services
-      link: /services/
-    - name: Kontakt
-      link: /contact/
     - name: Priser
       link: /prices/
+    - name: Kontakt
+      link: /contact/
 - title: Social
   links:
     - name: Facebook
