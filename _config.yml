@@ -1,101 +1,65 @@
-# ----
-# Site
+url: https://y7kim.github.io
+baseurl: /agency-jekyll-theme/
 
-title: Camillas Hårstudio
-url: "hairstylist"
-baseurl: "https://ludwigsw.github.io/"
-google_analytics_key:
-google_maps_javascript_api_key:
-disqus_shortname:
+# Site settings
+title: Awesome Title
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Jekyll template with example content for a law firm.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  name: Justice Template
-  links:
-    - https://github.com/CloudCannon/justice-jekyll-template
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
 
-# -----
-# Build
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
 
-paginate: 10
-paginate_path: "/advice/:num/"
-
-collections:
-  - "staff_members"
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: page
-      background_image_path: /uploads/building.jpg
-      image: /uploads/building.jpg
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-      _comments:
-        image: Shown in social shares and the advice list.
-
+# Build settings
+markdown: kramdown
 permalink: pretty
-
-jekyll-archives:
-  enabled:
-    - categories
-
-gems:
-  - jekyll-archives
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-paginate
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
-
-# -----------
-# CloudCannon
-
-call_to_actions:
-  - Contact
-  - Advice
-  - Map
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
-
-_comments:
-  large_header: Toggles the size of the top banner.
-  show_in_navigation: Toggles a link in the top banner.
-  author_staff_member: The staff member writing this post.
-  call_to_action: Type of request shown at the bottom of this page.
-  background_image_path: Image shown in the top banner, blank for the default.
-  testimonials: Update, add or remove testimonials.
-  map: Update the map location and display settings.
-  latitude: Coordinates for the center marker on the map.
-  longitude: Coordinates for the center marker on the map.
-  zoom: The zoom level for the map.
-  phone_extension: The digits after dialing the company phone.
-  credentials: Shown as subtext on staff member summaries.
-  contact_email_address: Address for the contact form to send to.
-  new_window: Whether the link opens a new browser tab/window.
