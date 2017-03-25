@@ -1,0 +1,30 @@
+- title: Sidor
+  links:
+    - name: Hem
+      link: /
+    - name: Om mig
+      link: /about/
+    - name: Services
+      link: /services/
+    - name: Kontakt
+      link: /contact/
+    - name: Priser
+      link: /prices/
+- title: Social
+  links:
+    - name: Facebook
+      link:
+      social_icon: Facebook
+      new_window: true
+    - name: Twitter
+      link:
+      social_icon: Twitter
+      new_window: true
+    - name: Google+
+      link:
+      social_icon: Google Plus
+      new_window: true
+    - name: LinkedIn
+      link:
+      social_icon: LinkedIn
+      new_window: true
